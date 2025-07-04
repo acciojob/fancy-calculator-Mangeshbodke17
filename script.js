@@ -1,9 +1,8 @@
-//your JS code here. If required.
-let a=prompt("a");
-let A=parseInt(a*2);
-let b=prompt("b");
+let a = prompt("Enter the first number:");
+let b = prompt("Enter the second number:");
 
+// Convert input to numbers and do the calculation
+let result = parseInt(a) * 2 + parseInt(b);
 
-let c=(parseInt(A)+parseInt(b));
-
-alert(`The final result is ${c}`);
+// Display the final result
+alert("The final result is: " + result);
